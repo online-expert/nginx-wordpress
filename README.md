@@ -41,7 +41,7 @@ Backup any existing config:
 
 Clone the repo:
 
-`sudo git clone https://github.com/A5hleyRich/wordpress-nginx.git /etc/nginx`
+`sudo git clone https://github.com/online-expert/nginx-wordpress.git /etc/nginx`
 
 Symlink the default file from _sites-available_ to _sites-enabled_, which will setup a catch-all server block. This will ensure unrecognised domains return a 444 response.
 
